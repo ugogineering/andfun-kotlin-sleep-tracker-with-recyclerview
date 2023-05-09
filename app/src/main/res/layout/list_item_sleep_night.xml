@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical">
 
     <ImageView
@@ -22,7 +22,7 @@
 
     <TextView
         android:id="@+id/sleep_length"
-        android:layout_width="0dp"
+        android:layout_width="150dp"
         android:layout_height="20dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
@@ -35,7 +35,7 @@
 
     <TextView
         android:id="@+id/quality_string"
-        android:layout_width="0dp"
+        android:layout_width="100dp"
         android:layout_height="20dp"
         android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
